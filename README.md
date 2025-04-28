@@ -111,20 +111,6 @@ The server will run at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 ## 🧠 API Overview
 
-| Endpoint | Method | Description |
-|:---|:---|:---|
-| `/api/auth/register` | POST | Register a new user |
-| `/api/auth/login` | POST | Login and get JWT token |
-| `/api/user/` | GET | Get current user info |
-| `/api/user/update` | PATCH | Update profile info |
-| `/api/user/delete` | DELETE | Delete user account |
-| `/api/challenge/` | GET | List all user challenges |
-| `/api/challenge/generate` | POST | Generate AI-powered challenge |
-| `/api/challenge/{hash}` | GET | Get single challenge details |
-| `/api/challenge/{hash}/progress` | PATCH | Update challenge progress |
-| `/api/challenge/{hash}` | DELETE | Delete single challenge |
-| `/api/challenge/all` | DELETE | Delete all challenges |
-
 Interactive documentation available:
 - Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 - ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)

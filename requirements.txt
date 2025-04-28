@@ -1,0 +1,15 @@
+requests
+python-dotenv
+fastapi
+uvicorn
+python-multipart
+aiofiles
+httpx
+sqlalchemy
+psycopg2-binary
+passlib
+PyJWT
+bcrypt
+pydantic
+pydantic[email]
+openai
